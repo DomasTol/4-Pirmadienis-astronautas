@@ -68,7 +68,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Domas: [Github](https://github.com/DomasTol)
+DomasTol: [Github](https://github.com/DomasTol)
 
 ## ⚠️ License
 
