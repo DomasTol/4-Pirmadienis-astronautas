@@ -14,9 +14,24 @@
             margin-left: calc((100% - 800px) / 2);    
         }
         header {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: space-between;
             background-color: pink;
-            
         }
+        img {}
+
+        nav {}
+
+        a {
+        margin-left: 40px;
+        }
+
+      a:first-child {
+        margin-left: 0;
+      
+      }
         main  {
             background-color: aqua;
             
@@ -29,7 +44,15 @@
 </head>
 
 <body>
-    <header>HEADER</header>
+    <header>
+        <img src="./Logo.png" alt="Logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+            <a href="#">Home</a>
+        </nav>
+    </header>
     <main>MAIN</main>
     <footer>FOOTER</footer>
 </body>
