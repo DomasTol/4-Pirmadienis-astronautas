@@ -39,7 +39,7 @@
         }
 
       a:hover {
-        text-decoration: underline;
+       
       
       }
         main  {
@@ -61,15 +61,32 @@
         }
         
         p{
-            
+
         }
 
         div > a {
-            display: inline-block;
-            padding: 20px;
+            float: left;
+            margin: 0.5em;
+            margin-left: 0;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 1em;
+            padding: 1em;
+            padding-left: 2.5em;
+            padding-right: 2.5em;
             background-color: rgb(102, 44, 140);
             text-decoration: none;
-            color: rgb(255, 255, 255);   
+            text-transform: uppercase;
+            color: rgb(255, 255, 255);
+            border-radius: 1.6em;
+            border: 0.1em solid rgb(102, 44, 140);
+
+        }
+        div>a:hover{
+            background-color: rgb(255, 255, 255);
+            color: rgb(102, 44, 140);
+            border: 2px solid rgb(102, 44, 140);
+
         }
 
         main>img {
